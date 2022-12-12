@@ -5,6 +5,7 @@ public class RealImage implements Image {
     private String fileName;
 
     public void loadingImageFromDisk() {
+
         System.out.println("Loading Image....");
     }
 
