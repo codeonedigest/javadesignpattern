@@ -16,13 +16,13 @@ public class IteratorPatternTest {
         iterator.addCustomer(customer1);
         iterator.addCustomer(customer2);
 
-        int customerCount = iterator.getTotalCustomerCount();
+        int customerCount = iterator.getTotalCount();
         System.out.println("There are total " + customerCount + " customers in collection") ;
 
         iterator.addCustomer(customer3);
         iterator.addCustomer(customer4);
 
-        int customerCount2 = iterator.getTotalCustomerCount();
+        int customerCount2 = iterator.getTotalCount();
         System.out.println("There are total " + customerCount2 + " customers in collection") ;
 
         iterator.getNext();
@@ -30,7 +30,7 @@ public class IteratorPatternTest {
 
         iterator.addCustomer(customer5);
 
-        int customerCount3 = iterator.getTotalCustomerCount();
+        int customerCount3 = iterator.getTotalCount();
         System.out.println("There are total " + customerCount3 + " customers in collection") ;
 
         iterator.getNext();

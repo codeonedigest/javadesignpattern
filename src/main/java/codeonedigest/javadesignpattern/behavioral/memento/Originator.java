@@ -1,6 +1,7 @@
 package codeonedigest.javadesignpattern.behavioral.memento;
 
 public class Originator {
+
     private String state;
 
     public Memento setState(String state){

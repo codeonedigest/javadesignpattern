@@ -9,6 +9,6 @@ public class OnState extends BulbState {
 
     @Override
     public void changeState(Bulb bulb) {
-        System.out.println("Current Bulb State is - " + bulb.getBulbState().stateName);
+        System.out.println("Changed the state of Bulb. Bulb is now in ON State");
     }
 }

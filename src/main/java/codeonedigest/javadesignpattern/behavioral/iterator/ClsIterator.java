@@ -15,7 +15,7 @@ public class ClsIterator {
         }
     }
 
-    public int getTotalCustomerCount() {
+    public int getTotalCount() {
         System.out.println("Getting the count of customers in collection") ;
         return customerList.size();
     }
@@ -59,7 +59,7 @@ public class ClsIterator {
         return customerList.get(customerList.size() -1);
     }
 
-    public List<ClsCustomer> getAllCustomers() {
+    public List<ClsCustomer> getAll() {
         return customerList;
     }
 }

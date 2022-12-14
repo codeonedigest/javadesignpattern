@@ -7,6 +7,8 @@ public class StrategyTest {
         calculator.number1 = 10;
         calculator.number2 = 5;
 
+        System.out.println("Inputs - NumberA=" + 10 + " and NumberB="+5);
+
         calculator.setStrategy(new ClsAddStrategy());
         int result1 = calculator.calculate();
         System.out.println("Result1 - " + result1);

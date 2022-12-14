@@ -16,9 +16,17 @@ public class CommandPatternTest {
 
 
         System.out.println(getCommand("OPEN").command);
+        getCommand("OPEN").executeCommand();
+
         System.out.println(getCommand("FILE").command);
+        getCommand("FILE").executeCommand();
+
         System.out.println(getCommand("SAVE").command);
+        getCommand("SAVE").executeCommand();
+
         System.out.println(getCommand("PRINT").command);
+        getCommand("PRINT").executeCommand();
+
     }
 
     public static IExecute getCommand(String command) {
